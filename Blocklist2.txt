@@ -1,0 +1,33 @@
+# ====== Custom Pi-hole Blocklist ======
+# Ads & Trackers (from your query logs)
+
+# Amazon ads
+amazon-adsystem.com
+aax-eu.amazon-adsystem.com
+s.amazon-adsystem.com
+
+# Google ads
+googlesyndication.com
+ade.googlesyndication.com
+
+# Content/ad networks
+outbrain.com
+sharethrough.com
+stackadapt.com
+admanmedia.com
+clean.gg
+rubiconproject.net
+trustarc.com
+
+# Marketing/Tracking
+mailerlite.com
+nr-data.net   # New Relic tracking
+
+# Shopping ad domains
+temu.com
+
+# Specific AWS/S3 tracking pixels
+imtjw0asak-pmi-pixel-origin.s3.amazonaws.com
+alb-unified-wrapper-1042837447.us-west-2.elb.amazonaws.com
+d162h6x3rav67.cloudfront.net
+us-east-1.qvcd3fe0.com
